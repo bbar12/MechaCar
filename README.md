@@ -1,6 +1,6 @@
-### MechaCar
+# MechaCar
 
-#MPG Mechacar Dataset Analysis
+## MPG Mechacar Dataset Analysis
 
 Creating a multiple linear regression for the Mechacar Dataset was simple. From the intercept data, it shows that the variables that have a significance towards the miles per gallon metric are the ground clearance and vehicle length. 
 As a qualitative check for the regression, I also researched if these were likely metrics to impact a metric of miles per gallon. Ground clearance is the amount of space between the base of a tire and the lowest point of the tire, this metric
@@ -17,25 +17,27 @@ variables have and what they contribute the model's slope is not considered to b
 Does it predict mpg of MechaCar prototypes effectively? Why/why not?
 All variables in the function do not predict mpg effectively, but through looking at the variables that have some significant variance we can perform further modeling using ground clearance and vehicle length to be predictors of mpg mileage.
 
-#Suspension Coil Summary 
+## Suspension Coil Summary 
+
 In the suspension coil summary table we see that the mean is within the design specifications
 of 1500 psi and that the variance psi of the specification is also within the criteria of not 
 exceeding 100 pounds per inch. The current data therefore meets the specification. 
 
-#Suspension Coil t-test
+## Suspension Coil t-test
+
 The data was filtered to isolate each lot to perform a t test. We find here that the average of lot 3 has the lowest mean among the manufacturing lots. The t test results indicate that all p values are above the significance level, however we cannot reject the null hypothesis.
 p values          	
-Lot 1 = 0.90		
-Lot 2 = 0.35		
-Lot 3 = 0.64		
+- Lot 1 = 0.90		
+- Lot 2 = 0.35		
+- Lot 3 = 0.64		
 
-#Study Design 
+## Study Design 
 One study AutosRUs can perform is to compare cars based on the most popular average nationwide budget for purchasers and weighing the competition not only based on budget but on mpg, cost of repairs, hp and average vehicle life. The study could also show what cars are best to buy for specific budget needs
 and how AutosRUs measures up against competitors for their quality product. 
 
 What is best mid-size value car to purchase with a consumer budget max of $30,000? 
-Hypothesis: A car manufactured at AutosRUs is the best value car to purchase with a budget max of $30,000.
-Null Hypothesis: X competitor is the best value car to purchase with a budget max of $30,000.
+- Hypothesis: A car manufactured at AutosRUs is the best value car to purchase with a budget max of $30,000.
+- Null Hypothesis: X competitor is the best value car to purchase with a budget max of $30,000.
 
 Depending on the information available, an ANOVA test or a multiple linear regression might be best. Given that these tests could be performed, the data extracted to answer this would involve car specifications for mpg, data on cost of repairs from consumer associations and consumer reviews on average vehicle life 
 per car manufacturer and model of mid size vehicle.  
